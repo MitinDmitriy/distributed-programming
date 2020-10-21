@@ -1,0 +1,14 @@
+@model TaskViewModel
+@{
+    ViewData["Title"] = "Task Page";
+}
+
+<div class="task__container">
+    <div class="task">
+        <span>Your task ID: </span>
+        <span>@Model.Id</span>
+        <span>Status: @Model.Status</span>
+        <span>Your task rank: </span>
+        <span>@Model.Rank</span>
+    </div>
+</div>
